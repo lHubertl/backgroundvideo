@@ -98,8 +98,11 @@ public class VideoOverlay extends ViewGroup implements TextureView.SurfaceTextur
             }
 
             Camera.Size lowestRes = CameraHelper.getLowestResolution(cameraParameters);
-            profile.videoFrameWidth = lowestRes.width;
-            profile.videoFrameHeight = lowestRes.height;
+            //profile.videoFrameWidth = lowestRes.width;
+            //profile.videoFrameHeight = lowestRes.height;
+
+             profile.videoFrameWidth = 1024;
+                profile.videoFrameHeight = 780;
 
             mRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
             if (mRecordAudio) {
