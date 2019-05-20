@@ -187,8 +187,8 @@ public class VideoOverlay extends ViewGroup implements TextureView.SurfaceTextur
 
 
 
-                    //cameraParameters.setPreviewSize(previewSize.width, previewSize.height);
-                    cameraParameters.setPreviewSize(0, 0);
+                    cameraParameters.setPreviewSize(previewSize.width, previewSize.height);
+                    //cameraParameters.setPreviewSize(0, 0);
 
 
                     cameraParameters.setRotation(mOrientation);
