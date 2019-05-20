@@ -1,7 +1,7 @@
 {
   "name": "backgroundvideo",
   "displayName": "Backgroundvideo",
-  "version": "0.13.0",
+  "version": "0.13.2",
   "description": "A plugin for recording video and overlaying it over an app",
   "main": "index.js",
   "directories": {
