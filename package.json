@@ -1,6 +1,23 @@
 {
-    "name": "backgroundvideo",
-    "displayName": "Backgroundvideo",
-    "version": "0.11.0",
-    "description": "A plugin for recording video and overlaying it over an app"
+  "name": "backgroundvideo",
+  "displayName": "Backgroundvideo",
+  "version": "0.11.0",
+  "description": "A plugin for recording video and overlaying it over an app",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lHubertl/backgroundvideo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lHubertl/backgroundvideo/issues"
+  },
+  "homepage": "https://github.com/lHubertl/backgroundvideo#readme"
 }
