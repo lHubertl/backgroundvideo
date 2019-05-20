@@ -114,8 +114,10 @@ public class BackgroundVideo extends CordovaPlugin {
 
                         // NOTE: GT-I9300 testing required wrapping view in relative layout for setAlpha to work.
                         RelativeLayout containerView = new RelativeLayout(cordova.getActivity());
-                        containerView.setAlpha(0.7f);
-                        containerView.addView(videoOverlay, new ViewGroup.LayoutParams(0, 0));
+                        containerView.setAlpha(0f);
+                        //containerView.addView(videoOverlay, new ViewGroup.LayoutParams(0, 0));
+
+
 
                         cordova.getActivity().addContentView(containerView, new ViewGroup.LayoutParams(0, 0));
                     } catch (Exception e) {

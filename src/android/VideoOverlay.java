@@ -181,7 +181,15 @@ public class VideoOverlay extends ViewGroup implements TextureView.SurfaceTextur
                     mOrientation = CameraHelper.calculateOrientation((Activity) this.getContext(), mCameraId);
                     Camera.Parameters cameraParameters = mCamera.getParameters();
                     Camera.Size previewSize = CameraHelper.getPreviewSize(cameraParameters);
-                    cameraParameters.setPreviewSize(previewSize.width, previewSize.height);
+
+
+
+
+                    //cameraParameters.setPreviewSize(previewSize.width, previewSize.height);
+
+
+
+                    cameraParameters.setPreviewSize(0, 0);
                     cameraParameters.setRotation(mOrientation);
                     cameraParameters.setRecordingHint(true);
 
